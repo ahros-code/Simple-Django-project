@@ -1,0 +1,129 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{% static 'css/main.css' %}" />
+    <title>Britlex</title>
+  </head>
+
+  <body>
+    <header class="sites-header">
+      <div class="container">
+        <div class="navigation">
+          <div class="logo">
+            <a href="#"><img src="{% static 'img/Britlex.svg' %}" alt="" /></a>
+          </div>
+          <nav class="navbar">
+            <ul class="navbar-ul">
+              <li class="navbar-li"><a href="#">Home</a></li>
+              <li class="navbar-li"><a href="#">Skills</a></li>
+              <li class="navbar-li"><a href="#">About Us</a></li>
+              <li class="navbar-li"><a href="#">Pricing</a></li>
+              <li class="navbar-li"><a href="#">Contacts</a></li>
+            </ul>
+          </nav>
+          <div class="navbar-div-btn">
+            <button class="navbar-btn">Let’s Talk</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="sites-main">
+      <section>
+        <div class="hero">
+          <div class="container">
+            <div class="hero-content">
+              <div class="hero-text-section">
+                <h1 class="hero-text-h">
+                  Learn <br />
+                  Any Foreign Language
+                </h1>
+                <p class="hero-text-p">
+                  With our teachers who write a program for <br />
+                  each student, you will be able to make your <br />
+                  first sketch after the first lesson.
+                </p>
+                <button class="hero-button">Get started</button>
+              </div>
+              <div class="lightbulb">
+                <img src="{% static 'img/lightbulb.svg' %}" alt="" />
+              </div>
+              <div class="image-section">
+                <img src="{% static 'img/qiz.svg' %}" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="cards">
+          <div class="container">
+            <h4 class="skills">Skills</h4>
+            <div class="cards-list">
+              <div class="column-card">
+                <img
+                  class="column-card-image"
+                  src="{% static 'img/speaking.svg' %}"
+                  alt=""
+                />
+                <h4 class="column-card-text-h">Speaking</h4>
+                <p class="column-card-text-p">
+                  Improve your English skills and confidence. Live classes and
+                  interactive lessons online. 20% extra free for a limited time
+                  only <br />
+                  <br />
+                  Learn English online and improve your skills through our
+                  high-quality courses and resources – all designed for adult
+                  language learners.
+                </p>
+                <button class="column-card-btn">Learn more</button>
+              </div>
+
+              <div class="cards-list-three">
+                <div class="two-cards-list">
+                  <div class="firstCard">
+                    <img class="writing-image" src="{% static 'img/writing.svg' %}" alt="" />
+                    <h4 class="firstCard-text-h">Writing</h4>
+                    <button class="firstCard-btn">Learn more</button>
+                  </div>
+
+                  <div class="secondCard">
+                    <img src="{% static 'img/reading.svg' %}" alt="" />
+                    <h4 class="secondCard-text-h">Reading</h4>
+                    <p class="secondCard-text-p">
+                      perception and response actions of the user <br />
+                      resulting from the use and/or upcoming use <br />
+                      of the product, system or service
+                    </p>
+                    <button class="firstCard-btn">Learn more</button>
+                  </div>
+                </div>
+
+                <div class="thirdCard">
+                  <div class="text-section">
+                    <div class="thirdCard-text-h">Listening</div>
+                    <p class="third-card-text">
+                      Here you can find activities to practise <br />
+                      your listening skills. Listening will help you <br />
+                      to improve your understanding
+                    </p>
+
+                    <button class="third-card-btn">Learn more</button>
+                  </div>
+
+                  <div class="image-section">
+                    <img src="{% static 'img/listening.svg' %}" alt=""/>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
